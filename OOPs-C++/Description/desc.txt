@@ -5,9 +5,26 @@ Object Oriented Programming :
     - It protects data from accidental changes.
 
 Class:
-    - Fundamental unit of OOP
-    - It is an user defined datatypes
-    - Define some data/Properties & methods/functions
+    - Fundamental unit of OOP.
+    - It is an user defined datatypes.
+    - Define some data/Properties & methods/functions.
 
 Objects:
-    - Objects are variables of type class
+    - Objs are variables of type class.
+
+Constructor:
+    - It is used to initialized an obj.
+    - It is a fun which is called when a obj is created.
+    - It has same name as Class name.
+    - Types:
+        - Default constructor: no args passed
+        - Parameterised constructor: args passed
+        - Copy constructor: Initialize an obj by another existing obj
+
+Desturctor:
+    - It is a fun which is called when an obj is deleted.
+    - Cannot pass any parameter in it.
+    - name: ~(class_name).
+
+Encapsulation:
+    - 
