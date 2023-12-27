@@ -46,3 +46,15 @@ Access Specifiers & Modes of Inheritance:
         - By default data and functions are private
     ** Protected **
         - Data & functions can be accessed in own class, parent class & derived class
+
+Types of Inheritance:
+    **Single Inheritance**
+        - There is one sub class and one super class
+    **Multiple Inheritance**
+        - There is one sub class and more than one super class
+    **Multi-Level Inheritance**
+        - There is a sub class which inherits another sub class
+    **Hierarchical Inheritance**
+        - There is one parent class and multiple sub class
+    **Hybrid Inheritance**
+        - Combination of more than one type of inheritance

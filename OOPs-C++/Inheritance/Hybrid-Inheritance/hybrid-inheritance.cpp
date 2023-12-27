@@ -11,14 +11,19 @@ public:
     }
 };
 
-class Child:public Parent{
-    public:
-    Child(){
-        cout << endl << "Child class" << endl;
+class Child : public Parent
+{
+public:
+    Child()
+    {
+        cout << endl
+             << "Child class" << endl;
     }
 };
 
 int main()
 {
+    Child c; // Object of child class
+
     return 0;
 }
