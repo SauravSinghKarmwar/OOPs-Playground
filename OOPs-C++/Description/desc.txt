@@ -58,3 +58,23 @@ Types of Inheritance:
         - There is one parent class and multiple sub class
     **Hybrid Inheritance**
         - Combination of more than one type of inheritance
+
+Polymorphism:
+    - This is the ability of the objects / methods to take different forms.
+
+Types of Polymorphism:
+    **Run-Time Polymorphism**
+        - If an objects have different forms then the selection of specific form is decided on run time.
+    **Compile Time Polymorphism**
+        - There are two type of compile-time polymorphism:
+            - Function Overloading
+            - Operator Overloading
+
+Function Overloading:
+    - Define a number of functions with same fun_name but performs differently according to the args passed.
+
+Operator Overloading:
+    - Define operators for performing different functions in different context
+
+Function Overriding:
+    - Child class defines a function of parent class

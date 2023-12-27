@@ -1,17 +1,28 @@
 #include <iostream>
 using namespace std;
 
-class Parent
+class Parent1
 {
 public:
-    Parent()
+    Parent1()
     {
         cout << endl
-             << "Parent class" << endl;
+             << "Parent1 class" << endl;
     }
 };
 
-class Child : public Parent
+class Parent2
+{
+public:
+    Parent2()
+    {
+        cout << endl
+             << "Parent2 class" << endl;
+    }
+};
+
+// Multiple Inheritance
+class Child : public Parent1, public Parent2
 {
 public:
     Child()
@@ -21,9 +32,19 @@ public:
     }
 };
 
+class GrandChild : public Child
+{
+public:
+    GrandChild()
+    {
+        cout << endl
+             << "Grand Child" << endl;
+    }
+};
+
 int main()
 {
-    Child c; // Object of child class
+    GrandChild G; // Object of Grandchild class
 
     return 0;
 }
