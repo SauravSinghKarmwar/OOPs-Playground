@@ -78,3 +78,6 @@ Operator Overloading:
 
 Function Overriding:
     - Child class defines a function of parent class
+
+Friend Function:
+    - Non-member function which can access private member of the class.
