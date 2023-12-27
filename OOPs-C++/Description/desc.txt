@@ -1,0 +1,13 @@
+Object Oriented Programming :
+    - More focus on data.
+    - Bind the data to the function.
+    - Program is divided into Objects, each objects have some data and some functions.
+    - It protects data from accidental changes.
+
+Class:
+    - Fundamental unit of OOP
+    - It is an user defined datatypes
+    - Define some data/Properties & methods/functions
+
+Objects:
+    - Objects are variables of type class
