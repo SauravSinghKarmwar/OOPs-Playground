@@ -33,3 +33,16 @@ Encapsulation:
 
 Abstraction:
     - It is a property of oops which enables us to display only essential information while hiding implementation details.
+
+Inheritance:
+    - A class inherits properties of another class
+    - child class / sub class inherits properties of parent class / super class.
+
+Access Specifiers & Modes of Inheritance:
+    ** Public **
+        - Data & functions can be accessed from anywhere in code
+    ** Private **
+        - Data & functions can be accessed only in own class
+        - By default data and functions are private
+    ** Protected **
+        - Data & functions can be accessed in own class, parent class & derived class
