@@ -27,4 +27,9 @@ Desturctor:
     - name: ~(class_name).
 
 Encapsulation:
-    - 
+    - It is a property of oops which ensures binding of method & variables together into a single unit -> [class]
+    - Data is only accessible from the class methods.
+    - It also lead to data abstraction/hiding. [class -> Abstract data type(ADT)]
+
+Abstraction:
+    - It is a property of oops which enables us to display only essential information while hiding implementation details.
