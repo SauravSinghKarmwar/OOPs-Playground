@@ -1,24 +1,26 @@
-#include<iostream>
+#include <iostream>
 using std::string;
 
 // Creating a class named Employee
-class Employee {
-    public:
-        string Name;
-        string Company;
-        int Age;
+class Employee
+{
+public:
+    string Name;
+    string Company;
+    int Age;
 
-        // Creating a fun/method 
-        void IntroduceYourself() {
-            std::cout<<"Name: "<<Name<<std::endl;
-            std::cout<<"Company: "<<Company<<std::endl;
-            std::cout<<"Age: "<<Age<<std::endl;
-        }
+    // Creating a fun/method
+    void IntroduceYourself()
+    {
+        std::cout << "Name: " << Name << std::endl;
+        std::cout << "Company: " << Company << std::endl;
+        std::cout << "Age: " << Age << std::endl;
+    }
 };
 
 int main()
 {
-    std::cout<<std::endl;   // Creating an empty line 
+    std::cout << std::endl; // Creating an empty line
 
     // Creating a Object of class "Employee"
     Employee employee1;
@@ -28,7 +30,7 @@ int main()
     // Calling the method for first object
     employee1.IntroduceYourself();
 
-    std::cout<<std::endl;   // Creating an empty line 
+    std::cout << std::endl; // Creating an empty line
 
     // Creating 2nd object
     Employee employee2;
@@ -38,5 +40,5 @@ int main()
     // Calling method on 2nd object
     employee2.IntroduceYourself();
 
-    std::cout<<std::endl;   // Creating an empty line 
+    std::cout << std::endl; // Creating an empty line
 }
