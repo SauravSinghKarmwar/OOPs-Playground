@@ -1,0 +1,83 @@
+Object Oriented Programming :
+    - More focus on data.
+    - Bind the data to the function.
+    - Program is divided into Objects, each objects have some data and some functions.
+    - It protects data from accidental changes.
+
+Class:
+    - Fundamental unit of OOP.
+    - It is an user defined datatypes.
+    - Define some data/Properties & methods/functions.
+
+Objects:
+    - Objs are variables of type class.
+
+Constructor:
+    - It is used to initialized an obj.
+    - It is a fun which is called when a obj is created.
+    - It has same name as Class name.
+    - Types:
+        - Default constructor: no args passed
+        - Parameterised constructor: args passed
+        - Copy constructor: Initialize an obj by another existing obj
+
+Desturctor:
+    - It is a fun which is called when an obj is deleted.
+    - Cannot pass any parameter in it.
+    - name: ~(class_name).
+
+Encapsulation:
+    - It is a property of oops which ensures binding of method & variables together into a single unit -> [class]
+    - Data is only accessible from the class methods.
+    - It also lead to data abstraction/hiding. [class -> Abstract data type(ADT)]
+
+Abstraction:
+    - It is a property of oops which enables us to display only essential information while hiding implementation details.
+
+Inheritance:
+    - A class inherits properties of another class
+    - child class / sub class inherits properties of parent class / super class.
+
+Access Specifiers & Modes of Inheritance:
+    ** Public **
+        - Data & functions can be accessed from anywhere in code
+    ** Private **
+        - Data & functions can be accessed only in own class
+        - By default data and functions are private
+    ** Protected **
+        - Data & functions can be accessed in own class, parent class & derived class
+
+Types of Inheritance:
+    **Single Inheritance**
+        - There is one sub class and one super class
+    **Multiple Inheritance**
+        - There is one sub class and more than one super class
+    **Multi-Level Inheritance**
+        - There is a sub class which inherits another sub class
+    **Hierarchical Inheritance**
+        - There is one parent class and multiple sub class
+    **Hybrid Inheritance**
+        - Combination of more than one type of inheritance
+
+Polymorphism:
+    - This is the ability of the objects / methods to take different forms.
+
+Types of Polymorphism:
+    **Run-Time Polymorphism**
+        - If an objects have different forms then the selection of specific form is decided on run time.
+    **Compile Time Polymorphism**
+        - There are two type of compile-time polymorphism:
+            - Function Overloading
+            - Operator Overloading
+
+Function Overloading:
+    - Define a number of functions with same fun_name but performs differently according to the args passed.
+
+Operator Overloading:
+    - Define operators for performing different functions in different context
+
+Function Overriding:
+    - Child class defines a function of parent class
+
+Friend Function:
+    - Non-member function which can access private member of the class.
